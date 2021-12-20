@@ -8,7 +8,8 @@ const onBlurInput = (event) => {
         validationEl.classList.add('valid');
         validationEl.classList.remove('invalid');
     } else {
-        validationEl.classList.add('invalid')
+        validationEl.classList.add('invalid');
+        validationEl.classList.remove('valid');
     }
 }
 
